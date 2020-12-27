@@ -1,6 +1,6 @@
-FROM postgres:11.5-alpine AS postgres
+FROM postgres:13-alpine AS postgres
 
-FROM elixir:1.9.1-alpine
+FROM elixir:1.11.2-alpine
 EXPOSE 4000
 
 ENV APP_PATH /app
